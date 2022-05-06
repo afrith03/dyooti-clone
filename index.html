@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/6bea34f904.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Dyooti - Future Forward</title>
+</head>
+
+<body id="body">
+
+
+    <div class="container">
+        <!--nab bar-->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo.png" width="150" alt="logo" class="d-inline-block align-text-top">
+                </a>
+                <div class="nav-links">
+                    <ul class="nav-list">
+                        <li class="links">
+                            <div class="btn-group">
+                                <!--code change start-->
+                                <div class="" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+                                  PRODUCTS <div id="icn"  class="fa fa-chevron-down"></div>
+                                </div>
+                                <div class=" dropdown-menu border-0 rounded-custom shadow py-0">
+                                    <div class="dropdown-grid rounded-custom width-half">
+                                        <div class="dropdown-grid-item"> 
+                                        <a href="" class="dropdown-link">  
+                                        <span class="demo-list bg-primary rounded text-white fw-bold"><img src="assets/img/ray.svg" class="menu-image"></span>
+                                            <div class="dropdown-info">
+                                                <div class="drop-title">ray</div>
+                                                <p>Project-to-invoice</p>
+                                            </div>
+                                        </a>
+                                        <a href="" class="dropdown-link">
+                                        <span class="demo-list bg-primary rounded text-white fw-bold"><img src="assets/img/flash.svg" class="menu-image"></span>
+                                            <div class="dropdown-info">
+                                                <div class="drop-title">flash</div>
+                                                <p>Job request-to-hire</p>
+                                            </div>
+                                        </a>
+                                        <a href="" class="dropdown-link">
+                                        <span class="demo-list bg-primary rounded text-white fw-bold"><img src="assets/img/photon.svg" class="menu-image"></span>
+                                            <div class="dropdown-info">
+                                                <div class="drop-title">photon</div>
+                                                <p>Craft your profile</p>
+                                            </div>
+                                        </a>
+                                <!--code change end-->        
+                                       
+                                    </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </li>
+                        <li class="links">CONSULTING</li>
+                        <Li class="links">CoE</Li>
+                        <li class="links">CONTACT</li>
+
+                    </ul>
+                    <span class="ham-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+                </div>
+            </div>
+        </nav>
+       <!--script for dropdown-->
+       <script>
+            function toggleicn() {
+                var i = document.getElementById('icn');
+                i.classList.toggle('fa-chevron-down');
+                i.classList.toggle('fa-chevron-up');
+            }
+       
+document.querySelector('#dropdownMenuButton').addEventListener('click', toggleicn );
+
+        </script>
+        <!--mobile nav bar-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">
+                <li class="links-mob">PRODUCTS</li>
+            </a>
+            <a href="#">
+                <li class="links-mob">CONSULTING</li>
+            </a>
+            <a href="#">
+                <Li class="links-mob">CoE</Li>
+            </a>
+            <a href="#">
+                <li class="links-mob">CONTACT</li>
+            </a>
+        </div>
+    </div>
+
+    <div class="component">
+        <img class="img-fluid" src="./assets/component.svg" width="100%" alt="component" />
+    </div>
+    <div class="group-image">
+        <img class="img-fluid" src="./assets/Group.svg" />
+    </div>
+    <div class="group-image-mobile">
+        <img class="img-fluid" src="./assets/Group.mobile.jpg" />
+    </div>
+
+
+
+    <!--cards-->
+    <div class="container">
+        <div class="rows ml-0">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="rows">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon work" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon location" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon time" alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="rows">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Designer</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">
+                        <img src="./assets/briefcase-solid.svg" class="card-icon" alt="" srcset=""> 2to3 years
+                        <img src="./assets/location-dot-solid.svg" class="card-icon" alt="" srcset=""> chennai
+                        <img src="./assets/clock-solid.svg" class="card-icon" S alt="" srcset=""> full time
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.maxime hic
+                        inventore quidem tempore repellendus illum molestias. Optio cum
+                        doloremque ratione fugit magni assumenda dolorum asperiores. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Alias omnis sunt
+                        incidunt fugit accusantium reiciendis......
+                    </p>
+
+                    <a href="#" class="card-link"> <span class="description-link">View full description</span> </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--mail form-->
+    <div class="container footers">
+
+        <div class="searchdiv">
+            <div class="searchbar-text">
+                <h2><b>Newsletter</b></h2>
+            </div>
+            <input type="text" class="s-bar input-group" placeholder="  Your email"
+                style="font-style: italic; font-size: small" />
+            <div class="sub-button">
+                <button type="submit" class="btn-primary ">Subscribe<i class="fa-solid fa-chevron-right"></i></button>
+
+            </div>
+
+            <div class="icons">
+                <img src="./assets/icons8-facebook.svg" style="width: 25px;" alt="fbicon" srcset="" />
+                <img src="./assets/icons8-twitter.svg" style="width: 25px;" alt="twittericon" srcset="" />
+                <img src="./assets/icons8-linkedin.svg" style="width: 25px;" alt="linkedin-icon" srcset="" />
+            </div>
+
+        </div>
+        <!-- footer-->
+        <div class="desktop-view">
+
+            <footer>
+                <div class="sections">
+                    <div class="footer-nav ml-0">
+                        <h4 class="font-weight-bold">Company</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Our inspiration</a>
+                            </li>
+                            <li>
+                                <a href="#!">Meet the team</a>
+                            </li>
+                            <li>
+                                <a href="#!">Careers</a>
+                            </li>
+                            <li>
+                                <a href="#!">Terms of Service</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4 class="font-weight-bold">Products</h4>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Flash</a>
+                            </li>
+                            <li>
+                                <a href="#!">Ray</a>
+                            </li>
+                            <li>
+                                <a href="#!">Beam</a>
+                            </li>
+                            <li>
+                                <a href="#!">Photon</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4 class="font-weight-bold">Resources</h4>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="#!">Case study</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4 class="font-weight-bold">Center of Excellence</h4>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Consulting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    ©
+                    <a href="#"> Dyooti inc.</a>
+                </div>
+        </div>
+        </footer>
+    </div>
+    <!--moblie footer-->
+    <div class="mobile-view">
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong>Company</strong><i class="fas fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    <li>
+                        <a href="#!">Our inspiration</a>
+                    </li>
+                    <li>
+                        <a href="#!">Meet the team</a>
+                    </li>
+                    <li>
+                        <a href="#!">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#!">Terms of Service</a>
+                    </li>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong>Products</strong><i class="fas fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    <li>
+                        <a href="#!">Flash</a>
+                    </li>
+                    <li>
+                        <a href="#!">Ray</a>
+                    </li>
+                    <li>
+                        <a href="#!">Beam</a>
+                    </li>
+                    <li>
+                        <a href="#!">Photon</a>
+                    </li>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong>Resources</strong><i class="fas fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    <li>
+                        <a href="#!">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#!">Case study</a>
+                    </li>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong>Center of Excellence</strong><i class="fas fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    <li>
+                        <a href="#">Consulting</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="mob-icons">
+            <img src="./assets/icons8-facebook.svg" style="width: 35px;" alt="fbicon" srcset="" />
+            <img src="./assets/icons8-twitter.svg" style="width: 35px;" alt="twittericon" srcset="" />
+            <img src="./assets/icons8-linkedin.svg" style="width: 35px;" alt="linkedin-icon" srcset="" />
+
+        </div>
+        <div class="footer-copyright">
+            ©
+            <a href="#"> Dyooti inc.</a>
+        </div>
+    </div>
+    <script>
+        //mobile-nav-bar
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+
+
+        //mobile-footer
+        const acc_btns = document.querySelectorAll(".accordion-header");
+        const acc_contents = document.querySelectorAll(".accordion-body");
+
+        acc_btns.forEach((btn) => {
+            btn.addEventListener("click", (e) => {
+                acc_contents.forEach((acc) => {
+                    if (
+                        e.target.nextElementSibling !== acc &&
+                        acc.classList.contains("active")
+                    ) {
+                        acc.classList.remove("active");
+                        acc_btns.forEach((btn) => btn.classList.remove("active"));
+                    }
+                });
+
+                const panel = btn.nextElementSibling;
+                panel.classList.toggle("active");
+                btn.classList.toggle("active");
+            });
+        });
+
+        window.onclick = (e) => {
+            if (!e.target.matches(".accordion-header")) {
+                acc_btns.forEach((btn) => btn.classList.remove("active"));
+                acc_contents.forEach((acc) => acc.classList.remove("active"));
+            }
+        };
+
+
+
+//icon rotation
+
+
+
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous">
+    
+    </script>
+    <!--script to add for dropdown-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<!--onmousedown="closeicn()"-->
+</html>
